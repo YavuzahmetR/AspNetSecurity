@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ProtectDataContext>(options =>
 {
-    options.UseSqlServer("Data Source=LAPTOP-1PLLIFRV\\SQLEXPRESS;Initial Catalog=ProtectData;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+    options.UseSqlServer("Data Source=");
 });
 
 builder.Services.AddDataProtection(); //**
