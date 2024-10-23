@@ -1,0 +1,1 @@
+Pre-prepared template codes to ensure or prevent situations such as data privacy of the projects to be created, access permissions to specific IPs, storage of sensitive information, CORS, and SQL injection attacks.
